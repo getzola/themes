@@ -1,0 +1,3 @@
+[submodule "hyde"]
+	path = hyde
+	url = git@github.com:Keats/hyde.git
