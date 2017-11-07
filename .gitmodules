@@ -1,3 +1,6 @@
 [submodule "hyde"]
 	path = hyde
 	url = git@github.com:Keats/hyde.git
+[submodule "after-dark"]
+	path = after-dark
+	url = git@github.com:Keats/after-dark.git
