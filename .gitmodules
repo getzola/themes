@@ -4,3 +4,7 @@
 [submodule "after-dark"]
 	path = after-dark
 	url = git@github.com:Keats/after-dark.git
+[submodule "feather"]
+	path = feather
+	url = https://github.com/piedoom/feather
+	branch = master
