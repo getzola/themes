@@ -8,3 +8,6 @@
 	path = feather
 	url = https://github.com/piedoom/feather
 	branch = master
+[submodule "even"]
+	path = even
+	url = git@github.com:Keats/even.git
