@@ -11,3 +11,6 @@
 [submodule "even"]
 	path = even
 	url = git@github.com:Keats/even.git
+[submodule "book"]
+	path = book
+	url = git@github.com:Keats/book.git
