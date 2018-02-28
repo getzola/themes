@@ -25,3 +25,7 @@ $ python generate_docs.py DESTINATION_FOLDER
 ```
 
 Note that this will erase `DESTINATION_FOLDER` first so be careful.
+
+## Updating all themes
+
+`git submodule update --remote --merge`
