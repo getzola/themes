@@ -14,3 +14,6 @@
 [submodule "book"]
 	path = book
 	url = git@github.com:Keats/book.git
+[submodule "materialize"]
+	path = materialize
+	url = https://github.com/verpeteren/gutenberg-materialize.git
