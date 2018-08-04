@@ -79,6 +79,7 @@ repository = "{repository}"
 homepage = "{homepage}"
 minimum_version = "{min_version}"
 license = "{license}"
+demo = "{demo}"
 
 [extra.author]
 name = "{author_name}"
@@ -97,6 +98,7 @@ homepage = "{author_homepage}"
             license=self.metadata["license"],
             author_name=self.metadata["author"]["name"],
             author_homepage=self.metadata["author"]["homepage"],
+            demo=self.metadata.get("demo", ""),
             readme=self.readme,
         )
 
