@@ -17,3 +17,6 @@
 [submodule "dinkleberg"]
 	path = dinkleberg
 	url = https://github.com/rust-br/dinkleberg.git
+[submodule "Ergo"]
+	path = Ergo
+	url = git@github.com:InsidiousMind/Ergo.git
