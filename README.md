@@ -1,10 +1,10 @@
-# Gutenberg themes
+# Zola themes
 
-All the community themes for Gutenberg.
+All the community themes for Zola.
 
 ## Adding your theme
 
-Follow the guidelines on the [documentation](https://www.getgutenberg.io/documentation/themes/creating-a-theme/).
+Follow the guidelines on the [documentation](https://www.getzola.org/documentation/themes/creating-a-theme/).
 
 Once this is done, do a pull request to this repository adding your theme as a git submodule.
 
