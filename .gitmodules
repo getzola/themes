@@ -1,19 +1,19 @@
 [submodule "hyde"]
 	path = hyde
-	url = git@github.com:Keats/hyde.git
+	url = git@github.com:getzola/hyde.git
 [submodule "after-dark"]
 	path = after-dark
-	url = git@github.com:Keats/after-dark.git
+	url = git@github.com:getzola/after-dark.git
 [submodule "feather"]
 	path = feather
 	url = https://github.com/piedoom/feather
 	branch = master
 [submodule "even"]
 	path = even
-	url = git@github.com:Keats/even.git
+	url = git@github.com:getzola/even.git
 [submodule "book"]
 	path = book
-	url = git@github.com:Keats/book.git
+	url = git@github.com:getzola/book.git
 [submodule "dinkleberg"]
 	path = dinkleberg
 	url = https://github.com/rust-br/dinkleberg.git
