@@ -20,3 +20,6 @@
 [submodule "Ergo"]
 	path = Ergo
 	url = git@github.com:InsidiousMind/Ergo.git
+[submodule "zola-theme-hikari"]
+	path = zola-theme-hikari
+	url = https://github.com/waynee95/zola-theme-hikari
