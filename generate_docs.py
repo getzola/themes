@@ -36,6 +36,7 @@ class Theme(object):
 
         with open(os.path.join(self.path, "README.md")) as f:
             self.readme = f.read()
+            self.readme = self.readme.replace("{{", "{{/*").replace("}}", "*/}}").replace("{%", "{%/*").replace("%}", "*/%}")
 
         self.repository = self.get_repository_url()
         self.initial_commit_date, self.last_commit_date = self.get_commit_dates()
@@ -61,7 +62,7 @@ class Theme(object):
         # last, first
         return dates[0], dates[len(dates) - 1]
 
-    def to_gutenberg_content(self):
+    def to_zola_content(self):
         """
         Returns the page content for Gutenberg
         """
@@ -102,7 +103,7 @@ homepage = "{author_homepage}"
             readme=self.readme,
         )
 
-    def to_gutenberg_folder(self, container):
+    def to_zola_folder(self, container):
         """
         Creates the page folder containing the screenshot and the info in
         content/themes
@@ -111,7 +112,7 @@ homepage = "{author_homepage}"
         os.makedirs(page_dir)
 
         with open(os.path.join(page_dir, "index.md"), "w") as f:
-            f.write(self.to_gutenberg_content())
+            f.write(self.to_zola_content())
 
         shutil.copyfile(
             os.path.join(self.path, "screenshot.png"),
@@ -161,4 +162,4 @@ sort_by = "date"
         """)
 
     for t in all_themes:
-        t.to_gutenberg_folder(destination)
+        t.to_zola_folder(destination)
