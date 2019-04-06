@@ -125,6 +125,8 @@ def read_themes():
 
     for item in os.listdir(base):
         full_path = os.path.join(base, item)
+        if item == "env":
+            continue
         # themes is the name i'm giving locally when building in this folder
         if item.startswith(".") or not os.path.isdir(full_path) or item == "themes":
             continue
