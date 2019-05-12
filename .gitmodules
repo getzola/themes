@@ -23,3 +23,6 @@
 [submodule "zola-theme-hikari"]
 	path = zola-theme-hikari
 	url = https://github.com/waynee95/zola-theme-hikari
+[submodule "Zulma"]
+	path = Zulma
+	url = https://github.com/Worble/Zulma
