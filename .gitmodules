@@ -26,3 +26,6 @@
 [submodule "Zulma"]
 	path = Zulma
 	url = https://github.com/Worble/Zulma
+[submodule "hallo"]
+	path = hallo
+	url = https://github.com/flyingP0tat0/zola-hallo.git
