@@ -29,3 +29,6 @@
 [submodule "hallo"]
 	path = hallo
 	url = https://github.com/flyingP0tat0/zola-hallo.git
+[submodule "sam"]
+	path = sam
+	url = https://github.com/janbaudisch/zola-sam.git
