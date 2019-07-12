@@ -8,7 +8,7 @@ Follow the guidelines on the [documentation](https://www.getzola.org/documentati
 
 Once this is done, do a pull request to this repository adding your theme as a git submodule.
 
-Themes are updated semi-regularly and all themes in this repo will be featured on the themes page of the Gutenberg site.
+Themes are updated semi-regularly and all themes in this repo will be featured on the themes page of the Zola site.
 
 ## Generating themes site
 
