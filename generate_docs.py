@@ -37,7 +37,6 @@ class Theme(object):
         with open(os.path.join(self.path, "README.md")) as f:
             self.readme = f.read()
             self.readme = self.readme.replace("{{", "{{/*").replace("}}", "*/}}").replace("{%", "{%/*").replace("%}", "*/%}")
-
         self.repository = self.get_repository_url()
         self.initial_commit_date, self.last_commit_date = self.get_commit_dates()
 
@@ -94,11 +93,11 @@ homepage = "{author_homepage}"
             created=self.initial_commit_date,
             updated=self.last_commit_date,
             repository=self.repository,
-            homepage=self.metadata["homepage"],
+            homepage=self.metadata.get("homepage", self.repository),
             min_version=self.metadata["min_version"],
             license=self.metadata["license"],
             author_name=self.metadata["author"]["name"],
-            author_homepage=self.metadata["author"]["homepage"],
+            author_homepage=self.metadata["author"].get("homepage", ""),
             demo=self.metadata.get("demo", ""),
             readme=self.readme,
         )
