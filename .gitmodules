@@ -32,3 +32,6 @@
 [submodule "sam"]
 	path = sam
 	url = https://github.com/janbaudisch/zola-sam.git
+[submodule "zerm"]
+	path = zerm
+	url = git@github.com:ejmg/zerm.git
