@@ -35,3 +35,6 @@
 [submodule "zerm"]
 	path = zerm
 	url = git@github.com:ejmg/zerm.git
+[submodule "hermit_zola"]
+	path = hermit_zola
+	url = https://github.com/VersBinarii/hermit_zola
