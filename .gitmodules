@@ -38,3 +38,6 @@
 [submodule "hermit_zola"]
 	path = hermit_zola
 	url = https://github.com/VersBinarii/hermit_zola
+[submodule "slim"]
+	path = slim
+	url = https://github.com/jameshclrk/zola-slim
