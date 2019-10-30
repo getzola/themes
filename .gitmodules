@@ -41,3 +41,6 @@
 [submodule "slim"]
 	path = slim
 	url = https://github.com/jameshclrk/zola-slim
+[submodule "toucan"]
+	path = toucan
+	url = https://git.42l.fr/HugoTrentesaux/toucan.git
