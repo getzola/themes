@@ -50,3 +50,6 @@
 [submodule "zola-pickles"]
 	path = zola-pickles
 	url = https://github.com/lukehsiao/zola-pickles.git
+[submodule "docsascode-theme"]
+	path = docsascode-theme
+	url = https://github.com/codeandmedia/zola_docsascode_theme.git
