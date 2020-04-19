@@ -53,3 +53,6 @@
 [submodule "docsascode-theme"]
 	path = docsascode-theme
 	url = https://github.com/codeandmedia/zola_docsascode_theme.git
+[submodule "lightspeed"]
+	path = lightspeed
+	url = https://github.com/carpetscheme/lightspeed
