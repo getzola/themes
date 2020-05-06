@@ -53,3 +53,6 @@
 [submodule "docsascode-theme"]
 	path = docsascode-theme
 	url = https://github.com/codeandmedia/zola_docsascode_theme.git
+[submodule "zola-henry"]
+	path = zola-henry
+	url = https://github.com/sirodoht/zola-henry
