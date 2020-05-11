@@ -56,3 +56,7 @@
 [submodule "zola-henry"]
 	path = zola-henry
 	url = https://github.com/sirodoht/zola-henry
+[submodule "zola.386"]
+	path = zola.386
+	url = https://github.com/lopes/zola.386
+  
