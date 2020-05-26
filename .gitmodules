@@ -62,3 +62,6 @@
 [submodule "zola.386"]
 	path = zola.386
 	url = https://github.com/lopes/zola.386
+[submodule "simple-dev-blog"]
+	path = simple-dev-blog
+	url = https://github.com/bennetthardwick/simple-dev-blog-zola-starter
