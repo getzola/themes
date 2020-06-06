@@ -65,3 +65,6 @@
 [submodule "simple-dev-blog"]
 	path = simple-dev-blog
 	url = https://github.com/bennetthardwick/simple-dev-blog-zola-starter
+[submodule "anpu"]
+	path = anpu
+	url = https://github.com/zbrox/anpu-zola-theme.git
