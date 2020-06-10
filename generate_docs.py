@@ -110,7 +110,14 @@ homepage = "{author_homepage}"
         page_dir = os.path.join(container, self.name)
         os.makedirs(page_dir)
 
+        required_metadata = ['name']
+
         with open(os.path.join(page_dir, "index.md"), "w") as f:
+            metadata_check = [required for required in required_metadata if required not in self.metadata]
+            if len(metadata_check) > 0:
+                print("Theme {} is missing required metadata: {}; skipping...".format(self.name, ", ".join(metadata_check)))
+                return
+            print("Writing theme info as zola content: {}".format(self.name))
             f.write(self.to_zola_content())
 
         shutil.copyfile(
