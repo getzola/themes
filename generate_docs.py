@@ -123,7 +123,7 @@ def read_themes():
     base = "./"
     themes = []
 
-    for item in os.listdir(base):
+    for item in sorted(os.listdir(base)):
         full_path = os.path.join(base, item)
         if item == "env" or item == "venv":
             continue
