@@ -138,6 +138,10 @@ def read_themes():
         if item.startswith(".") or not os.path.isdir(full_path) or item == "themes":
             continue
 
+        if not os.path.exists(os.path.join(full_path, "README.md")):
+            print(" !! Theme {} is missing README.md, skipping !!".format(item))
+            continue
+
         if not os.path.exists(os.path.join(full_path, "screenshot.png")):
             print(" !! Theme {} is missing screenshot.png, skipping !!".format(item))
             continue
