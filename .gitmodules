@@ -68,3 +68,6 @@
 [submodule "anpu"]
 	path = anpu
 	url = https://github.com/zbrox/anpu-zola-theme.git
+[submodule "float"]
+	path = float
+	url = https://gitlab.com/float-theme/float.git
