@@ -42,10 +42,10 @@ jobs:
           git config --local user.name "GitHub Action"
           git add docs/content/themes
           git commit -m "Update themes gallery" -a
-      - name: Push changes
-        uses: ad-m/github-push-action@master
+      - name: Create pull request
+        uses: peter-evans/create-pull-request@v2
         with:
-          repository: 'getzola/zola'
-          branch: 'master'
-          directory: 'zola'
-          github_token: ${{ secrets.TOKEN }}
+          title: 'Update themes gallery'
+          path: 'zola'
+          token: ${{ secrets.TOKEN }}
+          branch-suffix: 'timestamp'
