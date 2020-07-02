@@ -68,3 +68,6 @@
 [submodule "anpu"]
 	path = anpu
 	url = https://github.com/zbrox/anpu-zola-theme.git
+[submodule "zola-paper"]
+	path = zola-paper
+	url = https://github.com/schoenenberg/zola-paper.git
