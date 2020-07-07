@@ -71,3 +71,6 @@
 [submodule "zola-paper"]
 	path = zola-paper
 	url = https://github.com/schoenenberg/zola-paper.git
+[submodule "float"]
+	path = float
+	url = https://gitlab.com/float-theme/float.git

@@ -1,0 +1,51 @@
+on: 
+  push:
+    branches:
+      - master
+
+name: Generate themes site
+
+jobs:
+  generate:
+    name: Generate the static themes site
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout latest
+        uses: actions/checkout@master
+        with:
+          submodules: "recursive"
+      - name: Setup Python 3
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.8'
+      - name: Install Python requirements
+        run: pip install -r requirements.txt
+      - name: Run the generator script
+        run: python generate_docs.py site
+      - uses: actions/upload-artifact@v2
+        with:
+          name: themes-directory
+          path: site/*
+      - name: Checkout zola repo
+        uses: actions/checkout@v2
+        with:
+          repository: 'getzola/zola'
+          path: 'zola'
+          token: ${{ secrets.TOKEN }}
+      - name: Copy updated themes site
+        run: |
+          cp -r site/* zola/docs/content/themes/
+      - name: Commit files
+        run: |
+          cd zola
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add docs/content/themes
+          git commit -m "Update themes gallery" -a
+      - name: Create pull request
+        uses: peter-evans/create-pull-request@v2
+        with:
+          title: 'Update themes gallery'
+          path: 'zola'
+          token: ${{ secrets.TOKEN }}
+          branch-suffix: 'timestamp'
