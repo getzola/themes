@@ -74,3 +74,6 @@
 [submodule "float"]
 	path = float
 	url = https://gitlab.com/float-theme/float.git
+[submodule "solar-theme-zola"]
+	path = solar-theme-zola
+	url = https://github.com/hulufei/solar-theme-zola.git
