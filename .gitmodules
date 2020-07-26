@@ -77,3 +77,6 @@
 [submodule "solar-theme-zola"]
 	path = solar-theme-zola
 	url = https://github.com/hulufei/solar-theme-zola.git
+[submodule "juice"]
+	path = juice
+	url = https://github.com/huhu/juice
