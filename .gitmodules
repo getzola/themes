@@ -77,3 +77,6 @@
 [submodule "solar-theme-zola"]
 	path = solar-theme-zola
 	url = https://github.com/hulufei/solar-theme-zola.git
+[submodule "codinfox-zola"]
+	path = codinfox-zola
+	url = https://github.com/svavs/codinfox-zola
