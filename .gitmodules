@@ -83,3 +83,6 @@
 [submodule "juice"]
 	path = juice
 	url = https://github.com/huhu/juice
+[submodule "DeepThought"]
+	path = DeepThought
+	url = https://github.com/RatanShreshtha/DeepThought.git
