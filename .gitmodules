@@ -83,6 +83,9 @@
 [submodule "juice"]
 	path = juice
 	url = https://github.com/huhu/juice
+[submodule "particle"]
+	path = particle
+	url = https://github.com/svavs/particle-zola
 [submodule "DeepThought"]
 	path = DeepThought
 	url = https://github.com/RatanShreshtha/DeepThought.git
