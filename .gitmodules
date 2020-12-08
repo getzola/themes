@@ -86,3 +86,12 @@
 [submodule "particle"]
 	path = particle
 	url = https://github.com/svavs/particle-zola
+[submodule "DeepThought"]
+	path = DeepThought
+	url = https://github.com/RatanShreshtha/DeepThought.git
+[submodule "oceanic-zen"]
+	path = oceanic-zen
+	url = https://github.com/barlog-m/oceanic-zen.git
+[submodule "hephaestus"]
+	path = hephaestus
+	url = https://github.com/BConquest/hephaestus
