@@ -1,0 +1,24 @@
+name: test
+on:
+  push:
+    branches:
+      - master
+  pull_request:
+
+
+jobs:
+  backend:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout latest
+        uses: actions/checkout@master
+        with:
+          submodules: "recursive"
+      - name: Setup Python 3
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.8'
+      - name: Install Python requirements
+        run: pip install -r requirements.txt
+      - name: Run the generator script
+        run: python generate_docs.py site
