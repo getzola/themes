@@ -95,3 +95,6 @@
 [submodule "hephaestus"]
 	path = hephaestus
 	url = https://github.com/BConquest/hephaestus
+[submodule "emily_zola_theme"]
+	path = emily_zola_theme
+	url = https://gitlab.com/kyoheiu/emily_zola_theme
