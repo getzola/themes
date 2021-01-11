@@ -98,3 +98,6 @@
 [submodule "emily_zola_theme"]
 	path = emily_zola_theme
 	url = https://gitlab.com/kyoheiu/emily_zola_theme
+[submodule "anatole-zola"]
+	path = anatole-zola
+	url = https://github.com/longfangsong/anatole-zola.git
