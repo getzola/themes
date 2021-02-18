@@ -92,9 +92,11 @@
 [submodule "oceanic-zen"]
 	path = oceanic-zen
 	url = https://github.com/barlog-m/oceanic-zen.git
+	branch = main
 [submodule "hephaestus"]
 	path = hephaestus
 	url = https://github.com/BConquest/hephaestus
+	branch = main
 [submodule "emily_zola_theme"]
 	path = emily_zola_theme
 	url = https://gitlab.com/kyoheiu/emily_zola_theme
