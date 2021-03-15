@@ -103,3 +103,6 @@
 [submodule "anatole-zola"]
 	path = anatole-zola
 	url = https://github.com/longfangsong/anatole-zola.git
+[submodule "zola_easydocs_theme"]
+	path = zola_easydocs_theme
+	url = https://github.com/codeandmedia/zola_easydocs_theme.git
