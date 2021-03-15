@@ -106,3 +106,6 @@
 [submodule "zola_easydocs_theme"]
 	path = zola_easydocs_theme
 	url = https://github.com/codeandmedia/zola_easydocs_theme.git
+[submodule "dose"]
+	path = dose
+	url = https://github.com/oltd/dose.git
