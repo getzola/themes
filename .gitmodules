@@ -109,3 +109,6 @@
 [submodule "dose"]
 	path = dose
 	url = https://github.com/oltd/dose.git
+[submodule "nasm-theme"]
+	path = nasm-theme
+	url = https://github.com/lucasnasm/nasm-theme.git
