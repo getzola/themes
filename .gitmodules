@@ -109,3 +109,6 @@
 [submodule "dose"]
 	path = dose
 	url = https://github.com/oltd/dose.git
+[submodule "adidoks"]
+	path = adidoks
+	url = git@github.com:aaranxu/adidoks.git
