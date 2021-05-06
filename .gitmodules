@@ -112,3 +112,6 @@
 [submodule "adidoks"]
 	path = adidoks
 	url = git@github.com:aaranxu/adidoks.git
+[submodule "tale-zola"]
+	path = tale-zola
+	url = git@github.com:aaranxu/tale-zola.git
