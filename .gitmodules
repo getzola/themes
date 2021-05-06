@@ -112,3 +112,9 @@
 [submodule "ntun"]
 	path = ntun
 	url = https://github.com/Netoun/ntun
+[submodule "nasm-theme"]
+	path = nasm-theme
+	url = https://github.com/lucasnasm/nasm-theme.git
+[submodule "adidoks"]
+	path = adidoks
+	url = git@github.com:aaranxu/adidoks.git
