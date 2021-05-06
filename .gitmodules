@@ -109,6 +109,9 @@
 [submodule "dose"]
 	path = dose
 	url = https://github.com/oltd/dose.git
+[submodule "soapstone"]
+	path = soapstone
+	url = https://github.com/MattyRad/soapstone.git
 [submodule "ntun"]
 	path = ntun
 	url = https://github.com/Netoun/ntun
