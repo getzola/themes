@@ -109,6 +109,9 @@
 [submodule "dose"]
 	path = dose
 	url = https://github.com/oltd/dose.git
+[submodule "ntun"]
+	path = ntun
+	url = https://github.com/Netoun/ntun
 [submodule "nasm-theme"]
 	path = nasm-theme
 	url = https://github.com/lucasnasm/nasm-theme.git
