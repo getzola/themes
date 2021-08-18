@@ -124,3 +124,6 @@
 [submodule "tale-zola"]
 	path = tale-zola
 	url = git@github.com:aaranxu/tale-zola.git
+[submodule "papaya"]
+	path = papaya
+	url = git@github.com:justint/papaya.git
