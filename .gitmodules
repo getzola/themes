@@ -127,3 +127,6 @@
 [submodule "papaya"]
 	path = papaya
 	url = git@github.com:justint/papaya.git
+[submodule "karzok"]
+	path = karzok
+	url = https://git.sr.ht/~kogeletey/karzok
