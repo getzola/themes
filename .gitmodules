@@ -108,7 +108,7 @@
 	url = https://github.com/codeandmedia/zola_easydocs_theme.git
 [submodule "dose"]
 	path = dose
-	url = https://github.com/oltd/dose.git
+	url = https://github.com/oltdaniel/dose.git
 [submodule "soapstone"]
 	path = soapstone
 	url = https://github.com/MattyRad/soapstone.git
