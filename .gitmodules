@@ -133,3 +133,6 @@
 [submodule "hook"]
 	path = hook
 	url = https://github.com/InputUsername/zola-hook.git
+[submodule "serene"]
+	path = serene
+	url = https://github.com/isunjn/serene.git
