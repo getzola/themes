@@ -130,6 +130,9 @@
 [submodule "karzok"]
 	path = karzok
 	url = https://github.com/kogeletey/karzok
+[submodule "resume"]
+	path = resume
+	url = https://github.com/AlongWY/zola-resume.git
 [submodule "blow"]
 	path = blow
 	url = git@github.com:tchartron/blow.git
