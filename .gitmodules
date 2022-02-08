@@ -143,3 +143,6 @@
 [submodule "serene"]
 	path = serene
 	url = https://github.com/isunjn/serene.git
+[submodule "simplify"]
+	path = simplify
+	url = git@github.com:tarunjana/simplify.git
