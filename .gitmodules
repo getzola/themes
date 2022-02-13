@@ -146,3 +146,6 @@
 [submodule "simplify"]
 	path = simplify
 	url = git@github.com:tarunjana/simplify.git
+[submodule "d3c3nt"]
+	path = d3c3nt
+	url = https://git.figbert.com/FIGBERT/d3c3nt.git
