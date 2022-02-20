@@ -149,3 +149,6 @@
 [submodule "d3c3nt"]
 	path = d3c3nt
 	url = https://git.figbert.com/FIGBERT/d3c3nt.git
+[submodule "zolastrap"]
+	path = zolastrap
+	url = https://github.com/marcodpt/zolastrap
