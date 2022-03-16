@@ -152,3 +152,6 @@
 [submodule "zolastrap"]
 	path = zolastrap
 	url = https://github.com/marcodpt/zolastrap
+[submodule "kodama-theme"]
+	path = kodama-theme
+	url = https://github.com/adfaure/kodama-theme
