@@ -155,3 +155,6 @@
 [submodule "kodama-theme"]
 	path = kodama-theme
 	url = https://github.com/adfaure/kodama-theme
+[submodule "zhuia"]
+	path = zhuia
+	url = https://github.com/gicrisf/zhuia
