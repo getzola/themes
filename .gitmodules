@@ -152,3 +152,6 @@
 [submodule "zolastrap"]
 	path = zolastrap
 	url = https://github.com/marcodpt/zolastrap
+[submodule "zhuia"]
+	path = zhuia
+	url = https://github.com/gicrisf/zhuia
