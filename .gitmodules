@@ -158,3 +158,6 @@
 [submodule "zhuia"]
 	path = zhuia
 	url = https://github.com/gicrisf/zhuia
+[submodule "abridge"]
+	path = abridge
+	url = https://github.com/Jieiku/abridge
