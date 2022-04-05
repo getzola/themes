@@ -161,3 +161,6 @@
 [submodule "abridge"]
 	path = abridge
 	url = https://github.com/Jieiku/abridge.git
+[submodule "hermit"]
+	path = hermit
+	url = https://github.com/VersBinarii/hermit_zola.git
