@@ -35,8 +35,8 @@
 [submodule "zerm"]
 	path = zerm
 	url = https://github.com/ejmg/zerm.git
-[submodule "hermit_zola"]
-	path = hermit_zola
+[submodule "hermit"]
+	path = hermit
 	url = https://github.com/VersBinarii/hermit_zola.git
 [submodule "slim"]
 	path = slim
@@ -161,6 +161,4 @@
 [submodule "abridge"]
 	path = abridge
 	url = https://github.com/Jieiku/abridge.git
-[submodule "hermit"]
-	path = hermit
-	url = https://github.com/VersBinarii/hermit_zola.git
+
