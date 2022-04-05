@@ -35,8 +35,8 @@
 [submodule "zerm"]
 	path = zerm
 	url = https://github.com/ejmg/zerm.git
-[submodule "hermit_zola"]
-	path = hermit_zola
+[submodule "hermit"]
+	path = hermit
 	url = https://github.com/VersBinarii/hermit_zola.git
 [submodule "slim"]
 	path = slim
@@ -97,8 +97,8 @@
 	path = hephaestus
 	url = https://github.com/BConquest/hephaestus.git
 	branch = main
-[submodule "emily_zola_theme"]
-	path = emily_zola_theme
+[submodule "emily"]
+	path = emily
 	url = https://github.com/kyoheiu/emily_zola_theme.git
 [submodule "anatole-zola"]
 	path = anatole-zola
