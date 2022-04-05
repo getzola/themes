@@ -1,31 +1,31 @@
 [submodule "hyde"]
 	path = hyde
-	url = git@github.com:getzola/hyde.git
+	url = https://github.com/getzola/hyde.git
 [submodule "after-dark"]
 	path = after-dark
-	url = git@github.com:getzola/after-dark.git
+	url = https://github.com/getzola/after-dark.git
 [submodule "feather"]
 	path = feather
-	url = https://github.com/piedoom/feather
+	url = https://github.com/piedoom/feather.git
 	branch = master
 [submodule "even"]
 	path = even
-	url = git@github.com:getzola/even.git
+	url = https://github.com/getzola/even.git
 [submodule "book"]
 	path = book
-	url = git@github.com:getzola/book.git
+	url = https://github.com/getzola/book.git
 [submodule "dinkleberg"]
 	path = dinkleberg
 	url = https://github.com/rust-br/dinkleberg.git
 [submodule "Ergo"]
 	path = Ergo
-	url = git@github.com:InsidiousMind/Ergo.git
+	url = https://github.com/insipx/Ergo.git
 [submodule "zola-theme-hikari"]
 	path = zola-theme-hikari
-	url = https://github.com/waynee95/zola-theme-hikari
+	url = https://github.com/waynee95/zola-theme-hikari.git
 [submodule "Zulma"]
 	path = Zulma
-	url = https://github.com/Worble/Zulma
+	url = https://github.com/Worble/Zulma.git
 [submodule "hallo"]
 	path = hallo
 	url = https://github.com/flyingP0tat0/zola-hallo.git
@@ -34,19 +34,19 @@
 	url = https://github.com/janbaudisch/zola-sam.git
 [submodule "zerm"]
 	path = zerm
-	url = git@github.com:ejmg/zerm.git
+	url = https://github.com/ejmg/zerm.git
 [submodule "hermit_zola"]
 	path = hermit_zola
-	url = https://github.com/VersBinarii/hermit_zola
+	url = https://github.com/VersBinarii/hermit_zola.git
 [submodule "slim"]
 	path = slim
-	url = https://github.com/jameshclrk/zola-slim
+	url = https://github.com/jameshclrk/zola-slim.git
 [submodule "toucan"]
 	path = toucan
 	url = https://git.42l.fr/HugoTrentesaux/toucan.git
 [submodule "clean-blog"]
 	path = clean-blog
-	url = https://github.com/dave-tucker/zola-clean-blog
+	url = https://github.com/dave-tucker/zola-clean-blog.git
 [submodule "zola-pickles"]
 	path = zola-pickles
 	url = https://github.com/lukehsiao/zola-pickles.git
@@ -55,16 +55,16 @@
 	url = https://github.com/codeandmedia/zola_docsascode_theme.git
 [submodule "lightspeed"]
 	path = lightspeed
-	url = https://github.com/carpetscheme/lightspeed
+	url = https://github.com/carpetscheme/lightspeed.git
 [submodule "zola-henry"]
 	path = zola-henry
-	url = https://github.com/sirodoht/zola-henry
+	url = https://github.com/sirodoht/zola-henry.git
 [submodule "zola.386"]
 	path = zola.386
-	url = https://github.com/lopes/zola.386
+	url = https://github.com/lopes/zola.386.git
 [submodule "simple-dev-blog"]
 	path = simple-dev-blog
-	url = https://github.com/bennetthardwick/simple-dev-blog-zola-starter
+	url = https://github.com/bennetthardwick/simple-dev-blog-zola-starter.git
 [submodule "anpu"]
 	path = anpu
 	url = https://github.com/zbrox/anpu-zola-theme.git
@@ -79,13 +79,13 @@
 	url = https://github.com/hulufei/solar-theme-zola.git
 [submodule "codinfox-zola"]
 	path = codinfox-zola
-	url = https://github.com/svavs/codinfox-zola
+	url = https://github.com/svavs/codinfox-zola.git
 [submodule "juice"]
 	path = juice
-	url = https://github.com/huhu/juice
+	url = https://github.com/huhu/juice.git
 [submodule "particle"]
 	path = particle
-	url = https://github.com/svavs/particle-zola
+	url = https://github.com/svavs/particle-zola.git
 [submodule "DeepThought"]
 	path = DeepThought
 	url = https://github.com/RatanShreshtha/DeepThought.git
@@ -95,11 +95,11 @@
 	branch = main
 [submodule "hephaestus"]
 	path = hephaestus
-	url = https://github.com/BConquest/hephaestus
+	url = https://github.com/BConquest/hephaestus.git
 	branch = main
 [submodule "emily_zola_theme"]
 	path = emily_zola_theme
-	url = https://github.com/kyoheiu/emily_zola_theme
+	url = https://github.com/kyoheiu/emily_zola_theme.git
 [submodule "anatole-zola"]
 	path = anatole-zola
 	url = https://github.com/longfangsong/anatole-zola.git
@@ -114,28 +114,28 @@
 	url = https://github.com/MattyRad/soapstone.git
 [submodule "ntun"]
 	path = ntun
-	url = https://github.com/Netoun/ntun
+	url = https://github.com/Netoun/ntun.git
 [submodule "nasm-theme"]
 	path = nasm-theme
 	url = https://github.com/lucasnasm/nasm-theme.git
 [submodule "adidoks"]
 	path = adidoks
-	url = git@github.com:aaranxu/adidoks.git
+	url = https://github.com/aaranxu/adidoks.git
 [submodule "tale-zola"]
 	path = tale-zola
-	url = git@github.com:aaranxu/tale-zola.git
+	url = https://github.com/aaranxu/tale-zola.git
 [submodule "papaya"]
 	path = papaya
-	url = git@github.com:justint/papaya.git
+	url = https://github.com/justint/papaya.git
 [submodule "karzok"]
 	path = karzok
-	url = https://github.com/kogeletey/karzok
+	url = https://github.com/kogeletey/karzok.git
 [submodule "resume"]
 	path = resume
 	url = https://github.com/AlongWY/zola-resume.git
 [submodule "blow"]
 	path = blow
-	url = git@github.com:tchartron/blow.git
+	url = https://github.com/tchartron/blow.git
 	branch = main
 [submodule "hook"]
 	path = hook
@@ -145,19 +145,19 @@
 	url = https://github.com/isunjn/serene.git
 [submodule "simplify"]
 	path = simplify
-	url = git@github.com:tarunjana/simplify.git
+	url = https://github.com/tarunjana/simplify.git
 [submodule "d3c3nt"]
 	path = d3c3nt
 	url = https://git.figbert.com/FIGBERT/d3c3nt.git
 [submodule "zolastrap"]
 	path = zolastrap
-	url = https://github.com/marcodpt/zolastrap
+	url = https://github.com/marcodpt/zolastrap.git
 [submodule "kodama-theme"]
 	path = kodama-theme
-	url = https://github.com/adfaure/kodama-theme
+	url = https://github.com/adfaure/kodama-theme.git
 [submodule "zhuia"]
 	path = zhuia
-	url = https://github.com/gicrisf/zhuia
+	url = https://github.com/gicrisf/zhuia.git
 [submodule "abridge"]
 	path = abridge
-	url = https://github.com/Jieiku/abridge
+	url = https://github.com/Jieiku/abridge.git
