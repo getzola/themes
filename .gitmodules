@@ -162,3 +162,6 @@
 	path = abridge
 	url = https://github.com/Jieiku/abridge.git
 
+[submodule "emily"]
+	path = emily
+	url = https://github.com/kyoheiu/emily_zola_theme.git
