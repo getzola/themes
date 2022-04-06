@@ -97,8 +97,8 @@
 	path = hephaestus
 	url = https://github.com/BConquest/hephaestus.git
 	branch = main
-[submodule "emily_zola_theme"]
-	path = emily_zola_theme
+[submodule "emily"]
+	path = emily
 	url = https://github.com/kyoheiu/emily_zola_theme.git
 [submodule "anatole-zola"]
 	path = anatole-zola
@@ -161,7 +161,3 @@
 [submodule "abridge"]
 	path = abridge
 	url = https://github.com/Jieiku/abridge.git
-
-[submodule "emily"]
-	path = emily
-	url = https://github.com/kyoheiu/emily_zola_theme.git
