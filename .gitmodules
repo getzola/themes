@@ -161,3 +161,6 @@
 [submodule "abridge"]
 	path = abridge
 	url = https://github.com/Jieiku/abridge.git
+[submodule "seje2"]
+	path = seje2
+	url = https://github.com/eatradish/seje2
