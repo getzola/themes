@@ -164,3 +164,6 @@
 [submodule "seje2"]
 	path = seje2
 	url = https://github.com/eatradish/seje2
+[submodule "zola-theme-course"]
+	path = zola-theme-course
+	url = https://github.com/elegaanz/zola-theme-course.git
