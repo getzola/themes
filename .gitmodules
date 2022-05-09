@@ -166,4 +166,4 @@
 	url = https://github.com/elegaanz/zola-theme-course.git
 [submodule "kangae"]
 	path = kangae
-	url = https://github.com/ayushnix/kangae
+	url = https://github.com/ayushnix/kangae.git
