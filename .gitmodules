@@ -167,3 +167,6 @@
 [submodule "kangae"]
 	path = kangae
 	url = https://github.com/ayushnix/kangae.git
+[submodule "archie-zola"]
+	path = archie-zola
+	url = https://github.com/XXXMrG/archie-zola.git
