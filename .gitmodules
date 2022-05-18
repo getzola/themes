@@ -170,3 +170,6 @@
 [submodule "archie-zola"]
 	path = archie-zola
 	url = https://github.com/XXXMrG/archie-zola.git
+[submodule "apollo"]
+	path = apollo
+	url = https://github.com/not-matthias/apollo
