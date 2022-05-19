@@ -172,4 +172,7 @@
 	url = https://github.com/XXXMrG/archie-zola.git
 [submodule "apollo"]
 	path = apollo
-	url = https://github.com/not-matthias/apollo
+	url = https://github.com/not-matthias/apollo.git
+[submodule "zola-theme-terminimal"]
+	path = zola-theme-terminimal
+	url = https://github.com/pawroman/zola-theme-terminimal.git
