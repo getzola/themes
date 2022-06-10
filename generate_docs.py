@@ -7,6 +7,9 @@ import sys
 import toml
 
 
+MD_ANCHOR_LINKS = r"\[(.+)\]\(#.+\)"
+
+
 def slugify(s):
     """
     From: http://blog.dolphm.com/slugify-a-string-in-python/
@@ -37,6 +40,7 @@ class Theme(object):
         with open(os.path.join(self.path, "README.md")) as f:
             self.readme = f.read()
             self.readme = self.readme.replace("{{", "{{/*").replace("}}", "*/}}").replace("{%", "{%/*").replace("%}", "*/%}")
+            self.readme = re.sub(MD_ANCHOR_LINKS, r"\1", self.readme)
         self.repository = self.get_repository_url()
         self.initial_commit_date, self.last_commit_date = self.get_commit_dates()
 
