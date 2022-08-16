@@ -176,3 +176,6 @@
 [submodule "zola-theme-terminimal"]
 	path = zola-theme-terminimal
 	url = https://github.com/pawroman/zola-theme-terminimal.git
+[submodule "ataraxia-zola"]
+	path = ataraxia-zola
+	url = https://github.com/gersonbdev/ataraxia-zola
