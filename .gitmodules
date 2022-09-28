@@ -179,3 +179,6 @@
 [submodule "ataraxia-zola"]
 	path = ataraxia-zola
 	url = https://github.com/gersonbdev/ataraxia-zola
+[submodule "mont"]
+	path = mont
+	url = https://github.com/kyoheiu/mont
