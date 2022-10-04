@@ -182,3 +182,6 @@
 [submodule "mont"]
 	path = mont
 	url = https://github.com/kyoheiu/mont
+[submodule "tilde"]
+	path = tilde
+	url = https://git.sr.ht/~savoy/tilde
