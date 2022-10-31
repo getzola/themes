@@ -188,3 +188,7 @@
 [submodule "zplit"]
 	path = zplit
 	url = https://github.com/gicrisf/zplit
+[submodule "shadharon"]
+	path = shadharon
+	url = https://github.com/syedzayyan/shadharon
+
