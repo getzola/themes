@@ -192,3 +192,6 @@
 	path = shadharon
 	url = https://github.com/syedzayyan/shadharon
 
+[submodule "boring"]
+	path = boring
+	url = https://github.com/ssiyad/boring.git
