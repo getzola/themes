@@ -195,6 +195,12 @@
 [submodule "boring"]
 	path = boring
 	url = https://github.com/ssiyad/boring.git
+
 [submodule "no-style-please"]
 	path = no-style-please
 	url = https://gitlab.com/4bcx/no-style-please.git
+
+[submodule "albatros"]
+	path = albatros
+	url = https://git.42l.fr/HugoTrentesaux/Albatros.git
+
