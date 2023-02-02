@@ -204,3 +204,6 @@
 	path = albatros
 	url = https://git.42l.fr/HugoTrentesaux/Albatros.git
 
+[submodule "inky"]
+	path = inky
+	url = https://github.com/jimmyff/zola-inky.git
