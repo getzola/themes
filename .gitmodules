@@ -204,3 +204,6 @@
 	path = albatros
 	url = https://git.42l.fr/HugoTrentesaux/Albatros.git
 
+[submodule "HayFlow"]
+	path = HayFlow
+	url = https://gitlab.com/cyril-marpaud/hayflow.git
