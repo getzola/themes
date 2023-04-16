@@ -207,3 +207,6 @@
 [submodule "HayFlow"]
 	path = HayFlow
 	url = https://gitlab.com/cyril-marpaud/hayflow.git
+[submodule "tabi"]
+	path = tabi
+	url = https://github.com/welpo/tabi.git
