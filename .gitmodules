@@ -210,3 +210,6 @@
 [submodule "tabi"]
 	path = tabi
 	url = https://github.com/welpo/tabi.git
+[submodule "bearblog"]
+	path = bearblog
+	url = https://codeberg.org/alanpearce/zola-bearblog
