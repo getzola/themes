@@ -213,3 +213,6 @@
 [submodule "bearblog"]
 	path = bearblog
 	url = https://codeberg.org/alanpearce/zola-bearblog
+[submodule "andromeda"]
+	path = andromeda
+	url = git@github.com:Pixadus/andromeda-theme.git
