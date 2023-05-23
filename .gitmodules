@@ -216,3 +216,6 @@
 [submodule "andromeda"]
 	path = andromeda
 	url = git@github.com:Pixadus/andromeda-theme.git
+[submodule "papermod"]
+	path = papermod
+	url = https://github.com/cydave/zola-theme-papermod.git
