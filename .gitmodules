@@ -219,3 +219,6 @@
 [submodule "papermod"]
 	path = papermod
 	url = https://github.com/cydave/zola-theme-papermod.git
+[submodule "just-the-docs"]
+	path = just-the-docs
+	url = https://github.com/jakeswenson/zola-just-the-docs.git
