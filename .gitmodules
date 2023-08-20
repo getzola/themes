@@ -41,9 +41,6 @@
 [submodule "slim"]
 	path = slim
 	url = https://github.com/jameshclrk/zola-slim.git
-[submodule "toucan"]
-	path = toucan
-	url = https://git.42l.fr/HugoTrentesaux/toucan.git
 [submodule "clean-blog"]
 	path = clean-blog
 	url = https://github.com/dave-tucker/zola-clean-blog.git
@@ -191,19 +188,21 @@
 [submodule "shadharon"]
 	path = shadharon
 	url = https://github.com/syedzayyan/shadharon
-
 [submodule "boring"]
 	path = boring
 	url = https://github.com/ssiyad/boring.git
-
 [submodule "no-style-please"]
 	path = no-style-please
 	url = https://gitlab.com/4bcx/no-style-please.git
-
+[submodule "toucan"]
+	path = toucan
+	url = https://git.42l.fr/HugoTrentesaux/toucan.git
 [submodule "albatros"]
 	path = albatros
 	url = https://git.42l.fr/HugoTrentesaux/Albatros.git
-
+[submodule "seagull"]
+	path = seagull
+	url = https://git.42l.fr/HugoTrentesaux/seagull.git
 [submodule "HayFlow"]
 	path = HayFlow
 	url = https://gitlab.com/cyril-marpaud/hayflow.git
@@ -222,3 +221,6 @@
 [submodule "just-the-docs"]
 	path = just-the-docs
 	url = https://github.com/jakeswenson/zola-just-the-docs.git
+[submodule "anemone"]
+	path = anemone
+	url = https://github.com/Speyll/anemone
