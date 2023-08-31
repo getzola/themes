@@ -224,3 +224,6 @@
 [submodule "anemone"]
 	path = anemone
 	url = https://github.com/Speyll/anemone
+[submodule "zolarwind"]
+	path = zolarwind
+	url = https://github.com/thomasweitzel/zolarwind.git
