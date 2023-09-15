@@ -27,6 +27,8 @@ def slugify(s):
     s = s.strip()
     return s.replace(' ', '-')
 
+# Store errors to print them at the end.
+errors = []
 
 class Theme(object):
     def __init__(self, name, path):
@@ -34,8 +36,15 @@ class Theme(object):
         self.name = name
         self.path = path
 
-        with open(os.path.join(self.path, "theme.toml")) as f:
-            self.metadata = toml.load(f)
+        try:
+            with open(os.path.join(self.path, "theme.toml")) as f:
+                self.metadata = toml.load(f)
+        except Exception as e:
+            error_message = f"Theme '{self.name}' encountered a TOML parsing issue: {str(e)}"
+            errors.append(error_message)
+            self.metadata = None
+            return  # exit the constructor early
+
 
         with open(os.path.join(self.path, "README.md")) as f:
             self.readme = f.read()
@@ -137,19 +146,26 @@ def read_themes():
             continue
 
         if not os.path.exists(os.path.join(full_path, "README.md")):
-            print(" !! Theme {} is missing README.md, skipping !!".format(item))
+            error_message = f"Theme '{item}' is missing README.md."
+            errors.append(error_message)
             continue
 
         if not os.path.exists(os.path.join(full_path, "screenshot.png")):
-            print(" !! Theme {} is missing screenshot.png, skipping !!".format(item))
+            error_message = f"Theme '{item}' is missing screenshot.png."
+            errors.append(error_message)
             continue
 
         theme = Theme(item, full_path)
 
+        # Check if metadata was successfully loaded.
+        if theme.metadata is None:
+            continue
+
         required_metadata = ['name']
         metadata_check = [required for required in required_metadata if required not in theme.metadata]
         if len(metadata_check) > 0:
-            print("Theme {} is missing required metadata: {}; skipping...".format(theme.name, ", ".join(metadata_check)))
+            error_message = f"Theme '{theme.name}' is missing required metadata: {', '.join(metadata_check)}."
+            errors.append(error_message)
             continue
 
         themes.append(theme)
@@ -179,3 +195,17 @@ sort_by = "date"
 
     for t in all_themes:
         t.to_zola_folder(destination)
+
+    # Display errors.
+    if errors:
+        print("\n\n" + "="*60)
+        print("ERROR SUMMARY:")
+        print("-"*60)
+        for error in errors:
+            print(error)
+            print("-"*60)
+        print("="*60 + "\n")
+
+    # Print summary of themes processed.
+    print(f"\nThemes successfully processed: {len(all_themes)}")
+    print(f"Themes with errors: {len(errors)}")
