@@ -230,3 +230,6 @@
 [submodule "zolarwind"]
 	path = zolarwind
 	url = https://github.com/thomasweitzel/zolarwind.git
+[submodule "tranquil"]
+	path = tranquil
+	url = https://github.com/TeaDrinkingProgrammer/tranquil.git
