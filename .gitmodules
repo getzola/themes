@@ -233,3 +233,6 @@
 [submodule "tranquil"]
 	path = tranquil
 	url = https://github.com/TeaDrinkingProgrammer/tranquil.git
+[submodule "polymathic"]
+	path = polymathic
+	url = https://github.com/anvlkv/polymathic
