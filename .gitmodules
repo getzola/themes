@@ -242,3 +242,6 @@
 [submodule "duckquill"]
 	path = duckquill
 	url = https://codeberg.org/daudix/duckquill.git
+[submodule "mabuya"]
+	path = mabuya
+	url = https://github.com/semanticdata/mabuya.git
