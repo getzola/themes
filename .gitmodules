@@ -245,3 +245,6 @@
 [submodule "mabuya"]
 	path = mabuya
 	url = https://github.com/semanticdata/mabuya.git
+[submodule "zola-minimal"]
+	path = zola-minimal
+	url = https://github.com/semanticdata/zola-minimal
