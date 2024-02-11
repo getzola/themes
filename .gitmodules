@@ -251,3 +251,6 @@
 [submodule "zola-minimal"]
 	path = zola-minimal
 	url = https://github.com/semanticdata/zola-minimal
+[submodule "halve-z"]
+	path = halve-z
+	url = https://github.com/charlesrocket/halve-z
