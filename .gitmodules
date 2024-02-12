@@ -251,6 +251,9 @@
 [submodule "zola-minimal"]
 	path = zola-minimal
 	url = https://github.com/semanticdata/zola-minimal
+[submodule "halve-z"]
+	path = halve-z
+	url = https://github.com/charlesrocket/halve-z
 [submodule "pico"]
 	path = pico
 	url = https://github.com/kuznetsov17/pico.git
