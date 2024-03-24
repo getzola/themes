@@ -257,3 +257,6 @@
 [submodule "pico"]
 	path = pico
 	url = https://github.com/kuznetsov17/pico.git
+[submodule "otherworld"]
+	path = otherworld
+	url = https://git.blek.codes/blek/otherworld.git
