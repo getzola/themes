@@ -1,0 +1,25 @@
+name: Update all themes
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "51 5 * * 1"
+
+jobs:
+  update-all-themes:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          submodules: "recursive"
+      - name: Update submodules
+        run: "git submodule update --remote"
+      - name: Commit and push changes
+        run: |
+          git status
+          if [[ `git status --short` ]]; then
+            git config --local user.email "action@github.com"
+            git config --local user.name "GitHub Action"
+            git commit -am "Update all themes"
+            git push
+          fi
