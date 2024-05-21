@@ -14,12 +14,15 @@ jobs:
           submodules: "recursive"
       - name: Update submodules
         run: "git submodule update --remote"
-      - name: Commit and push changes
+      - name: Commit, push and generate
+        env:
+          GH_TOKEN: ${{ github.token }}
         run: |
           git status
           if [[ `git status --short` ]]; then
-            git config --local user.email "action@github.com"
-            git config --local user.name "GitHub Action"
+            git config --global user.email "action@github.com"
+            git config --global user.name "GitHub Action"
             git commit -am "Update all themes"
             git push
+            gh workflow run generate.yml
           fi
