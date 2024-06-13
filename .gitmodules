@@ -260,3 +260,6 @@
 [submodule "otherworld"]
 	path = otherworld
 	url = https://git.blek.codes/blek/otherworld.git
+[submodule "zallery"]
+	path = zallery
+	url = https://github.com/gamingrobot/zallery.git
