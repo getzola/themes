@@ -263,3 +263,6 @@
 [submodule "zallery"]
 	path = zallery
 	url = https://github.com/gamingrobot/zallery.git
+[submodule "coco"]
+	path = coco
+	url = https://github.com/es-romo/coco.git
