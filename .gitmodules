@@ -269,6 +269,9 @@
 [submodule "zola-hacker"]
 	path = zola-hacker
 	url = https://github.com/en9inerd/zola-hacker
+[submodule "zola-grayscale"]
+	path = zola-grayscale
+	url = https://github.com/mattimustang/zola-grayscale.git
 [submodule "neovim-theme"]
 	path = neovim-theme
 	url = git@github.com:Super-Botman/neovim-theme.git
