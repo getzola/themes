@@ -157,7 +157,7 @@
 	url = https://github.com/Jieiku/abridge.git
 [submodule "seje2"]
 	path = seje2
-	url = https://github.com/eatradish/seje2
+	url = https://github.com/eatradish/seje2.git
 [submodule "zola-theme-course"]
 	path = zola-theme-course
 	url = https://github.com/elegaanz/zola-theme-course.git
@@ -175,19 +175,19 @@
 	url = https://github.com/pawroman/zola-theme-terminimal.git
 [submodule "ataraxia-zola"]
 	path = ataraxia-zola
-	url = https://github.com/gersonbdev/ataraxia-zola
+	url = https://github.com/gersonbdev/ataraxia-zola.git
 [submodule "mont"]
 	path = mont
-	url = https://github.com/kyoheiu/mont
+	url = https://github.com/kyoheiu/mont.git
 [submodule "tilde"]
 	path = tilde
 	url = https://git.sr.ht/~savoy/tilde
 [submodule "zplit"]
 	path = zplit
-	url = https://github.com/gicrisf/zplit
+	url = https://github.com/gicrisf/zplit.git
 [submodule "shadharon"]
 	path = shadharon
-	url = https://github.com/syedzayyan/shadharon
+	url = https://github.com/syedzayyan/shadharon.git
 [submodule "boring"]
 	path = boring
 	url = https://github.com/ssiyad/boring.git
@@ -214,10 +214,10 @@
 	url = https://github.com/welpo/tabi.git
 [submodule "bearblog"]
 	path = bearblog
-	url = https://codeberg.org/alanpearce/zola-bearblog
+	url = https://codeberg.org/alanpearce/zola-bearblog.git
 [submodule "andromeda"]
 	path = andromeda
-	url = git@github.com:Pixadus/andromeda-theme.git
+	url = https://github.com/Pixadus/andromeda-theme.git
 [submodule "papermod"]
 	path = papermod
 	url = https://github.com/cydave/zola-theme-papermod.git
@@ -226,7 +226,7 @@
 	url = https://github.com/jakeswenson/zola-just-the-docs.git
 [submodule "anemone"]
 	path = anemone
-	url = https://github.com/Speyll/anemone
+	url = https://github.com/Speyll/anemone.git
 [submodule "zolarwind"]
 	path = zolarwind
 	url = https://github.com/thomasweitzel/zolarwind.git
@@ -238,7 +238,7 @@
 	url = https://github.com/st1020/kita.git
 [submodule "polymathic"]
 	path = polymathic
-	url = https://github.com/anvlkv/polymathic
+	url = https://github.com/anvlkv/polymathic.git
 [submodule "duckquill"]
 	path = duckquill
 	url = https://codeberg.org/daudix/duckquill.git
@@ -250,10 +250,10 @@
 	url = https://github.com/kuznetsov17/minimal-dark.git
 [submodule "zola-minimal"]
 	path = zola-minimal
-	url = https://github.com/semanticdata/zola-minimal
+	url = https://github.com/semanticdata/zola-minimal.git
 [submodule "halve-z"]
 	path = halve-z
-	url = https://github.com/charlesrocket/halve-z
+	url = https://github.com/charlesrocket/halve-z.git
 [submodule "pico"]
 	path = pico
 	url = https://github.com/kuznetsov17/pico.git
@@ -266,3 +266,16 @@
 [submodule "academic-paper"]
 	path = academic-paper
 	url = https://github.com/aterenin/academic-paper.git
+[submodule "zallery"]
+	path = zallery
+	url = https://github.com/gamingrobot/zallery.git
+[submodule "coco"]
+	path = coco
+	url = https://github.com/es-romo/coco.git
+[submodule "zola-hacker"]
+	path = zola-hacker
+	url = https://github.com/en9inerd/zola-hacker
+[submodule "zola-grayscale"]
+	path = zola-grayscale
+	url = https://github.com/mattimustang/zola-grayscale.git
+
