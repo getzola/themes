@@ -281,3 +281,6 @@
 [submodule "neovim-theme"]
 	path = neovim-theme
 	url = git@github.com:Super-Botman/neovim-theme.git
+[submodule "project-portfolio"]
+	path = project-portfolio
+	url = git@github.com:awinterstein/zola-theme-project-portfolio.git
