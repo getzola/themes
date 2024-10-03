@@ -284,3 +284,6 @@
 [submodule "project-portfolio"]
 	path = project-portfolio
 	url = git@github.com:awinterstein/zola-theme-project-portfolio.git
+[submodule "zluinav"]
+	path = zluinav
+	url = https://github.com/harrymkt/zluinav
