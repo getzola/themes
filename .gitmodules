@@ -287,3 +287,7 @@
 [submodule "zluinav"]
 	path = zluinav
 	url = https://github.com/harrymkt/zluinav
+[submodule "linkita"]
+	path = linkita
+	url = https://codeberg.org/salif/linkita.git
+	branch = linkita
