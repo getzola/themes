@@ -287,6 +287,9 @@
 [submodule "zluinav"]
 	path = zluinav
 	url = https://github.com/harrymkt/zluinav
+[submodule "after-after-dark"]
+	path = after-after-dark
+	url = https://github.com/micahkepe/after-after-dark.git
 [submodule "linkita"]
 	path = linkita
 	url = https://codeberg.org/salif/linkita.git
