@@ -291,3 +291,6 @@
 	path = linkita
 	url = https://codeberg.org/salif/linkita.git
 	branch = linkita
+[submodule "re137"]
+	path = re137
+	url = git@github.com:tinikov/re137.git
