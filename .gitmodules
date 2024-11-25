@@ -294,3 +294,6 @@
 [submodule "re137"]
 	path = re137
 	url = git@github.com:tinikov/re137.git
+[submodule "zola-agency"]
+	path = zola-agency
+	url = https://git.sr.ht/~vonzimp/zola-agency
