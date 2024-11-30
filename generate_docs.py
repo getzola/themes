@@ -9,6 +9,13 @@ import toml
 
 MD_ANCHOR_LINKS = r"\[(.+)\]\(#.+\)"
 
+def find_file(directory, filename):
+    """Find a file in the given directory regardless of case."""
+    lower_filename = filename.lower()
+    for file in os.listdir(directory):
+        if file.lower() == lower_filename:
+            return file  # Return the correctly-cased filename
+    return None  # File not found
 
 def slugify(s):
     """
@@ -46,7 +53,7 @@ class Theme(object):
             return  # exit the constructor early
 
 
-        with open(os.path.join(self.path, "README.md")) as f:
+        with open(os.path.join(self.path, find_file(self.path, "README.md"))) as f:
             self.readme = f.read()
             self.readme = self.readme.replace("{{", "{{/*").replace("}}", "*/}}").replace("{%", "{%/*").replace("%}", "*/%}")
             self.readme = re.sub(MD_ANCHOR_LINKS, r"\1", self.readme)
@@ -76,7 +83,7 @@ class Theme(object):
 
     def to_zola_content(self):
         """
-        Returns the page content for Gutenberg
+        Returns the page content for Zola
         """
         return """
 +++
@@ -84,6 +91,9 @@ title = "{title}"
 description = "{description}"
 template = "theme.html"
 date = {updated}
+
+[taxonomies]
+tags = {tags}
 
 [extra]
 created = {created}
@@ -109,6 +119,7 @@ homepage = "{author_homepage}"
             homepage=self.metadata.get("homepage", self.repository),
             min_version=self.metadata["min_version"],
             license=self.metadata["license"],
+            tags=self.metadata.get("tags", "[]"),
             author_name=self.metadata["author"]["name"],
             author_homepage=self.metadata["author"].get("homepage", ""),
             demo=self.metadata.get("demo", ""),
@@ -128,7 +139,7 @@ homepage = "{author_homepage}"
             f.write(self.to_zola_content())
 
         shutil.copyfile(
-            os.path.join(self.path, "screenshot.png"),
+            os.path.join(self.path, find_file(self.path, "screenshot.png")),
             os.path.join(page_dir, "screenshot.png"),
         )
 
@@ -145,12 +156,12 @@ def read_themes():
         if item.startswith(".") or not os.path.isdir(full_path) or item == "themes":
             continue
 
-        if not os.path.exists(os.path.join(full_path, "README.md")):
+        if find_file(full_path, "README.md") == None:
             error_message = f"Theme '{item}' is missing README.md."
             errors.append(error_message)
             continue
 
-        if not os.path.exists(os.path.join(full_path, "screenshot.png")):
+        if find_file(full_path, "screenshot.png") == None:
             error_message = f"Theme '{item}' is missing screenshot.png."
             errors.append(error_message)
             continue
