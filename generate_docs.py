@@ -58,7 +58,7 @@ class Theme(object):
             self.readme = self.readme.replace("{{", "{{/*").replace("}}", "*/}}").replace("{%", "{%/*").replace("%}", "*/%}")
             self.readme = re.sub(MD_ANCHOR_LINKS, r"\1", self.readme)
         self.repository = self.get_repository_url()
-        self.initial_commit_date, self.last_commit_date = self.get_commit_dates()
+        self.initial_commit_date, self.last_commit_date = self.get_commit_dates(self.name)
 
     def get_repository_url(self):
         command = "git -C {} remote -v".format(self.path)
@@ -73,8 +73,11 @@ class Theme(object):
             cleaned = cleaned.replace("git@github.com:", "https://github.com/").replace(".git", "")
         return cleaned
 
-    def get_commit_dates(self):
-        command = 'git log --pretty=format:"%aI" {}'.format(self.path)
+    def get_commit_dates(self, submodule_name = None):
+        if submodule_name:
+            command = f'git -C {submodule_name} log --reverse --format=%aI'
+        else:
+            command = 'git log --pretty=format:"%aI" {}'.format(self.path)
         (_, date) = subprocess.getstatusoutput(command)
         dates = date.split("\n")
 
