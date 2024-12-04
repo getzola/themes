@@ -93,7 +93,7 @@ template = "theme.html"
 date = {updated}
 
 [taxonomies]
-tags = {tags}
+theme-tags = {tags}
 
 [extra]
 created = {created}
