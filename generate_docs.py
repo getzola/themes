@@ -74,7 +74,7 @@ class Theme(object):
         return cleaned
 
     def get_commit_dates(self):
-        command = 'git log --pretty=format:"%aI" {}'.format(self.path)
+        command = f'git -C {self.name} log --reverse --format=%aI'
         (_, date) = subprocess.getstatusoutput(command)
         dates = date.split("\n")
 
@@ -93,7 +93,7 @@ template = "theme.html"
 date = {updated}
 
 [taxonomies]
-tags = {tags}
+theme-tags = {tags}
 
 [extra]
 created = {created}
