@@ -297,3 +297,7 @@
 [submodule "zola-agency"]
 	path = zola-agency
 	url = https://git.sr.ht/~vonzimp/zola-agency
+[submodule "zola-theme-jiaxiang.wang"]
+	path = zola-theme-jiaxiang.wang
+	url = https://github.com/iWangJiaxiang/zola-theme-jiaxiang.wang
+	branch = main
