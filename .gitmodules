@@ -301,3 +301,7 @@
 	path = zola-theme-jiaxiang.wang
 	url = https://github.com/iWangJiaxiang/zola-theme-jiaxiang.wang
 	branch = main
+[submodule "homepage-creators"]
+	path = homepage-creators
+	url = https://github.com/iWangJiaxiang/Homepage-Creators.git
+	branch = main
