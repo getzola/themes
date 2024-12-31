@@ -308,3 +308,6 @@
 	path = homepage-creators
 	url = https://github.com/iWangJiaxiang/Homepage-Creators.git
 	branch = main
+[submodule "zola-folio"]
+	path = zola-folio
+	url = https://github.com/evjrob/zola-folio
