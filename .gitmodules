@@ -77,9 +77,6 @@
 [submodule "codinfox-zola"]
 	path = codinfox-zola
 	url = https://github.com/svavs/codinfox-zola.git
-[submodule "juice"]
-	path = juice
-	url = https://github.com/huhu/juice.git
 [submodule "particle"]
 	path = particle
 	url = https://github.com/svavs/particle-zola.git
