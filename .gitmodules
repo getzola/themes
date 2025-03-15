@@ -308,3 +308,6 @@
 [submodule "portfolio-starter-kit"]
 	path = portfolio-starter-kit
 	url = https://github.com/roblesch/portfolio-starter-kit.git
+[submodule "zola-futu"]
+	path = zola-futu
+	url = git@github.com:inhzus/zola-futu.git
