@@ -311,3 +311,7 @@
 [submodule "zola-futu"]
 	path = zola-futu
 	url = git@github.com:inhzus/zola-futu.git
+[submodule "daisy"]
+	path = daisy
+	url = https://codeberg.org/winterstein/zola-theme-daisy.git
+	branch = main
