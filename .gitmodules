@@ -315,3 +315,6 @@
 	path = daisy
 	url = https://codeberg.org/winterstein/zola-theme-daisy.git
 	branch = main
+[submodule "BelResume"]
+	path = BelResume
+	url = https://github.com/cx48/BelResume.git
