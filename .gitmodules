@@ -318,3 +318,6 @@
 [submodule "BelResume"]
 	path = BelResume
 	url = https://github.com/cx48/BelResume.git
+[submodule "BelTree"]
+	path = BelTree
+	url = https://github.com/cx48/BelTree
