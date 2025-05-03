@@ -321,3 +321,6 @@
 [submodule "BelTree"]
 	path = BelTree
 	url = https://github.com/cx48/BelTree
+[submodule "parchment"]
+	path = parchment
+	url = https://github.com/jsonfry/parchment
