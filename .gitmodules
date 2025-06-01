@@ -324,3 +324,6 @@
 [submodule "parchment"]
 	path = parchment
 	url = https://github.com/jsonfry/parchment
+[submodule "photography-theme"]
+	path = photography-theme
+	url = https://github.com/arbs09/photography-theme.git
