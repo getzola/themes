@@ -324,3 +324,6 @@
 [submodule "parchment"]
 	path = parchment
 	url = https://github.com/jsonfry/parchment
+[submodule "vonge"]
+	path = vonge
+	url = https://github.com/paberr/vonge-zola-theme
