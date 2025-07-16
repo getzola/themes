@@ -324,3 +324,6 @@
 [submodule "parchment"]
 	path = parchment
 	url = https://github.com/jsonfry/parchment
+[submodule "lekhz"]
+	path = lekhz
+	url = https://github.com/ba11b0y/lekhz.git
