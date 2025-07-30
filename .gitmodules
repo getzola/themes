@@ -324,3 +324,6 @@
 [submodule "parchment"]
 	path = parchment
 	url = https://github.com/jsonfry/parchment
+[submodule "terminus"]
+	path = terminus
+	url = https://github.com/ebkalderon/terminus.git
