@@ -16,6 +16,8 @@ Clone this repo and run `git submodule update --init --recursive`.
 
 You will need python3 and the requirements listed in `requirements.txt` installed.
 
+If you are a Nix user and flakes are available, you can use `flake.nix`.
+
 To generate the markdown pages:
 
 ```bash
