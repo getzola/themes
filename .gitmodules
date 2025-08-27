@@ -324,3 +324,6 @@
 [submodule "parchment"]
 	path = parchment
 	url = https://github.com/jsonfry/parchment
+[submodule "olivine"]
+	path = olivine
+	url = https://github.com/dongryul-kim/olivine.git
