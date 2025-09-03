@@ -324,3 +324,6 @@
 [submodule "parchment"]
 	path = parchment
 	url = https://github.com/jsonfry/parchment
+[submodule "coast"]
+	path = coast
+	url = https://github.com/Myxogastria0808/coast.git
