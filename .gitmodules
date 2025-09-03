@@ -327,3 +327,6 @@
 [submodule "coffee"]
 	path = coffee
 	url = https://github.com/Myxogastria0808/coffee.git
+[submodule "coast"]
+	path = coast
+	url = https://github.com/Myxogastria0808/coast.git
