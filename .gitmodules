@@ -321,6 +321,9 @@
 [submodule "coffee"]
 	path = coffee
 	url = https://github.com/Myxogastria0808/coffee.git
+[submodule "coast"]
+	path = coast
+	url = https://github.com/Myxogastria0808/coast.git
 [submodule "photography-theme"]
 	path = photography-theme
 	url = https://github.com/arbs09/photography-theme.git
