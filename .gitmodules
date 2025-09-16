@@ -321,3 +321,6 @@
 [submodule "coffee"]
 	path = coffee
 	url = https://github.com/Myxogastria0808/coffee.git
+[submodule "goyo"]
+	path = goyo
+	url = https://github.com/hahwul/goyo
