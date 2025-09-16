@@ -324,3 +324,9 @@
 [submodule "photography-theme"]
 	path = photography-theme
 	url = https://github.com/arbs09/photography-theme.git
+[submodule "lekhz"]
+	path = lekhz
+	url = https://github.com/ba11b0y/lekhz.git
+[submodule "goyo"]
+	path = goyo
+	url = https://github.com/hahwul/goyo
