@@ -312,6 +312,10 @@
 [submodule "BelResume"]
 	path = BelResume
 	url = https://github.com/cx48/BelResume.git
+[submodule "carbon"]
+	path = carbon
+	url = https://github.com/nik-rev/carbon.git
+	branch = main
 [submodule "BelTree"]
 	path = BelTree
 	url = https://github.com/cx48/BelTree
