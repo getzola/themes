@@ -137,9 +137,6 @@
 [submodule "serene"]
 	path = serene
 	url = https://github.com/isunjn/serene.git
-[submodule "d3c3nt"]
-	path = d3c3nt
-	url = git://git.figbert.com/d3c3nt.git
 [submodule "zolastrap"]
 	path = zolastrap
 	url = https://github.com/marcodpt/zolastrap.git
@@ -188,9 +185,6 @@
 [submodule "boring"]
 	path = boring
 	url = https://github.com/ssiyad/boring.git
-[submodule "no-style-please"]
-	path = no-style-please
-	url = https://gitlab.com/4bcx/no-style-please.git
 [submodule "toucan"]
 	path = toucan
 	url = https://git.42l.fr/HugoTrentesaux/toucan.git
@@ -327,3 +321,27 @@
 [submodule "peritus"]
 	path = peritus
 	url = https://github.com/jskaza/peritus.git
+[submodule "vonge"]
+	path = vonge
+	url = https://github.com/paberr/vonge-zola-theme
+[submodule "terminus"]
+	path = terminus
+	url = https://github.com/ebkalderon/terminus.git
+[submodule "olivine"]
+	path = olivine
+	url = https://github.com/dongryul-kim/olivine.git
+[submodule "coffee"]
+	path = coffee
+	url = https://github.com/Myxogastria0808/coffee.git
+[submodule "coast"]
+	path = coast
+	url = https://github.com/Myxogastria0808/coast.git
+[submodule "photography-theme"]
+	path = photography-theme
+	url = https://github.com/arbs09/photography-theme.git
+[submodule "lekhz"]
+	path = lekhz
+	url = https://github.com/ba11b0y/lekhz.git
+[submodule "goyo"]
+	path = goyo
+	url = https://github.com/hahwul/goyo
