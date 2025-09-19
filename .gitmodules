@@ -349,3 +349,6 @@
 [submodule "goyo"]
 	path = goyo
 	url = https://github.com/hahwul/goyo
+[submodule "landing-grid"]
+	path = landing-grid
+	url = https://github.com/fastup-one/landing-grid-zola.git
