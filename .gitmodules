@@ -209,9 +209,6 @@
 [submodule "andromeda"]
 	path = andromeda
 	url = https://github.com/Pixadus/andromeda-theme.git
-[submodule "papermod"]
-	path = papermod
-	url = https://github.com/cydave/zola-theme-papermod.git
 [submodule "just-the-docs"]
 	path = just-the-docs
 	url = https://github.com/jakeswenson/zola-just-the-docs.git
@@ -349,6 +346,10 @@
 [submodule "goyo"]
 	path = goyo
 	url = https://github.com/hahwul/goyo
+[submodule "papermod_2"]
+	path = papermod_2
+	url = https://github.com/dawnandrew100/zola-theme-papermod-2
 [submodule "landing-grid"]
 	path = landing-grid
 	url = https://github.com/fastup-one/landing-grid-zola.git
+
