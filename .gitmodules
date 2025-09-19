@@ -349,3 +349,7 @@
 [submodule "papermod_2"]
 	path = papermod_2
 	url = https://github.com/dawnandrew100/zola-theme-papermod-2
+[submodule "landing-grid"]
+	path = landing-grid
+	url = https://github.com/fastup-one/landing-grid-zola.git
+
