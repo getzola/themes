@@ -337,9 +337,6 @@
 [submodule "coast"]
 	path = coast
 	url = https://github.com/Myxogastria0808/coast.git
-[submodule "photography-theme"]
-	path = photography-theme
-	url = https://github.com/arbs09/photography-theme.git
 [submodule "lekhz"]
 	path = lekhz
 	url = https://github.com/ba11b0y/lekhz.git
@@ -352,4 +349,6 @@
 [submodule "landing-grid"]
 	path = landing-grid
 	url = https://github.com/fastup-one/landing-grid-zola.git
-
+[submodule "photography-theme"]
+	path = photography-theme
+	url = https://codeberg.org/arbs09/photography-theme.git
