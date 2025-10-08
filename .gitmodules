@@ -352,3 +352,6 @@
 [submodule "photography-theme"]
 	path = photography-theme
 	url = https://codeberg.org/arbs09/photography-theme.git
+[submodule "marisa-theme"]
+	path = marisa-theme
+	url = https://codeberg.org/bitinn/marisa-theme.git
