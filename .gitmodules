@@ -355,3 +355,6 @@
 [submodule "marisa-theme"]
 	path = marisa-theme
 	url = https://codeberg.org/bitinn/marisa-theme.git
+[submodule "zola-no-style-please"]
+	path = zola-no-style-please
+	url = https://git.sr.ht/~gumxcc/zola-no-style-please
