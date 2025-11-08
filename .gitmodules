@@ -355,6 +355,9 @@
 [submodule "zola-no-style-please"]
 	path = zola-no-style-please
 	url = https://git.sr.ht/~gumxcc/zola-no-style-please
+[submodule "kirifuji"]
+	path = kirifuji
+	url = https://codeberg.org/yukari/kirifuji-zola.git
 [submodule "themes/artist"]
 	path = themes/artist
 	url = https://github.com/Pooletergeist/artist-zola-theme.git
