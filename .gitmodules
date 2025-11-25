@@ -361,3 +361,6 @@
 [submodule "themes/artist"]
 	path = themes/artist
 	url = https://github.com/Pooletergeist/artist-zola-theme.git
+[submodule "cela"]
+	path = cela
+	url = https://github.com/edwardzcn-decade/cela.git
