@@ -364,3 +364,6 @@
 [submodule "cela"]
 	path = cela
 	url = https://github.com/edwardzcn-decade/cela.git
+[submodule "xuan"]
+	path = xuan
+	url = https://github.com/jhq223/xuan.git
