@@ -367,3 +367,6 @@
 [submodule "xuan"]
 	path = xuan
 	url = https://github.com/jhq223/xuan.git
+[submodule "MATbook"]
+	path = MATbook
+	url = https://github.com/srliu3264/MATbook.git
