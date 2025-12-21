@@ -358,9 +358,6 @@
 [submodule "kirifuji"]
 	path = kirifuji
 	url = https://codeberg.org/yukari/kirifuji-zola.git
-[submodule "themes/artist"]
-	path = themes/artist
-	url = https://github.com/Pooletergeist/artist-zola-theme.git
 [submodule "cela"]
 	path = cela
 	url = https://github.com/edwardzcn-decade/cela.git
@@ -373,3 +370,6 @@
 [submodule "zap"]
 	path = zap
 	url = https://github.com/jimmyff/zola-zap.git
+[submodule "Artist"]
+	path = Artist
+	url = https://github.com/Pooletergeist/artist-zola-theme.git
