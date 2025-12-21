@@ -373,3 +373,6 @@
 [submodule "Artist"]
 	path = Artist
 	url = https://github.com/Pooletergeist/artist-zola-theme.git
+[submodule "austere"]
+	path = austere
+	url = https://github.com/tomwrw/austere-theme-zola
