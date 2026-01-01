@@ -376,3 +376,6 @@
 [submodule "austere"]
 	path = austere
 	url = https://github.com/tomwrw/austere-theme-zola
+[submodule "tanuki"]
+	path = tanuki
+	url = https://github.com/raskell-io/tanuki
