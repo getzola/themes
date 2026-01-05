@@ -379,3 +379,6 @@
 [submodule "tanuki"]
 	path = tanuki
 	url = https://github.com/raskell-io/tanuki
+[submodule "block"]
+	path = block
+	url = https://github.com/ssiyad/block
