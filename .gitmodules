@@ -382,3 +382,6 @@
 [submodule "block"]
 	path = block
 	url = https://github.com/ssiyad/block
+[submodule "zola-theme-nivis"]
+	path = zola-theme-nivis
+	url = git@github.com:Resorie/zola-theme-nivis.git
