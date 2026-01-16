@@ -1,7 +1,6 @@
 on:
-  push:
-    branches:
-      - master
+  schedule:
+    - cron: "51 5 * * 1"
   workflow_dispatch:
 
 name: Generate themes site
@@ -12,41 +11,56 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout latest
-        uses: actions/checkout@master
+        uses: actions/checkout@v6.0.1
         with:
           submodules: "recursive"
+      - name: Update themes to latest
+        run: git submodule update --remote
+      - name: Commit updated themes
+        id: themes
+        run: |
+          if [[ `git status --short` ]]; then
+            git config --global user.email "action@github.com"
+            git config --global user.name "GitHub Action"
+            git commit -am "Update all themes"
+            git push
+            echo "has_changes=true" >> $GITHUB_OUTPUT
+          else
+            echo "has_changes=false" >> $GITHUB_OUTPUT
+          fi
       - name: Setup Python 3
-        uses: actions/setup-python@v2
+        if: steps.themes.outputs.has_changes == 'true'
+        uses: actions/setup-python@v6.1.0
         with:
           python-version: '3.8'
       - name: Install Python requirements
+        if: steps.themes.outputs.has_changes == 'true'
         run: pip install -r requirements.txt
       - name: Run the generator script
+        if: steps.themes.outputs.has_changes == 'true'
         run: python generate_docs.py site
-      - uses: actions/upload-artifact@v4
+      - uses: actions/upload-artifact@v6
+        if: steps.themes.outputs.has_changes == 'true'
         with:
           name: themes-directory
           path: site/*
       - name: Checkout zola repo
-        uses: actions/checkout@v2
+        if: steps.themes.outputs.has_changes == 'true'
+        uses: actions/checkout@v6.0.1
         with:
           repository: 'getzola/zola'
           path: 'zola'
           token: ${{ secrets.TOKEN }}
       - name: Copy updated themes site
+        if: steps.themes.outputs.has_changes == 'true'
         run: |
           cp -r site/* zola/docs/content/themes/
-      - name: Commit files
-        run: |
-          cd zola
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
-          git add docs/content/themes
-          git commit -m "Update themes gallery" -a
       - name: Create pull request
-        uses: peter-evans/create-pull-request@v3
+        if: steps.themes.outputs.has_changes == 'true'
+        uses: peter-evans/create-pull-request@v8
         with:
           title: 'Update themes gallery'
           path: 'zola'
           token: ${{ secrets.TOKEN }}
-          branch-suffix: 'timestamp'
+          commit-message: 'Update themes gallery'
+          labels: skip-changelog
