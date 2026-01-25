@@ -388,6 +388,6 @@
 [submodule "portio-zola"]
 	path = portio-zola
 	url = https://github.com/quentin-rodriguez/portio-zola.git
-[submodule "themes/prism"]
-	path = themes/prism
+[submodule "prism"]
+	path = prism
 	url = https://github.com/jahamars/zola-prism.git
