@@ -391,3 +391,6 @@
 [submodule "prism"]
 	path = prism
 	url = https://github.com/jahamars/zola-prism.git
+[submodule "zolanight"]
+	path = zolanight
+	url = https://github.com/mxaddict/zolanight
