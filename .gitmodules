@@ -394,3 +394,6 @@
 [submodule "zolanight"]
 	path = zolanight
 	url = https://github.com/mxaddict/zolanight
+[submodule "linen"]
+	path = linen
+	url = https://github.com/hmemcpy/zola-theme-linen.git
