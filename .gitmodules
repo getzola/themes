@@ -394,3 +394,6 @@
 [submodule "zolanight"]
 	path = zolanight
 	url = https://github.com/mxaddict/zolanight
+[submodule "Persona-Zola-Theme"]
+	path = Persona-Zola-Theme
+	url = https://github.com/hanson-hschang/Persona-Zola-Theme.git
