@@ -394,3 +394,6 @@
 [submodule "zolanight"]
 	path = zolanight
 	url = https://github.com/mxaddict/zolanight
+[submodule "colorized"]
+	path = colorized
+	url = https://git.colorized.life/demo.colorized.life.git
