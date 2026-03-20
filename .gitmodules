@@ -395,5 +395,8 @@
 	path = zolanight
 	url = https://github.com/mxaddict/zolanight
 [submodule "Persona-Zola-Theme"]
-	path = Persona-Zola-Theme
+	path = persona
 	url = https://github.com/hanson-hschang/Persona-Zola-Theme.git
+[submodule "colorized"]
+	path = colorized
+	url = https://git.colorized.life/demo.colorized.life.git
