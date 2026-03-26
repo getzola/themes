@@ -400,3 +400,6 @@
 [submodule "colorized"]
 	path = colorized
 	url = https://git.colorized.life/demo.colorized.life.git
+[submodule "still"]
+	path = still
+	url = https://github.com/wjianbo/zola-theme-still.git
