@@ -403,3 +403,6 @@
 [submodule "still"]
 	path = still
 	url = https://github.com/wjianbo/zola-theme-still.git
+[submodule "broadside"]
+	path = broadside
+	url = https://github.com/nsrosenqvist/broadside
