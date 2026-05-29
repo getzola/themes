@@ -406,3 +406,6 @@
 [submodule "broadside"]
 	path = broadside
 	url = https://github.com/nsrosenqvist/broadside
+[submodule "researchlab"]
+	path = researchlab
+	url = https://codeberg.org/plaublin/researchlab.git
