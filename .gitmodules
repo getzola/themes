@@ -406,3 +406,6 @@
 [submodule "broadside"]
 	path = broadside
 	url = https://github.com/nsrosenqvist/broadside
+[submodule "harmless"]
+	path = harmless
+	url = https://github.com/e4779/zola-harmless.git
