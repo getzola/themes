@@ -409,3 +409,6 @@
 [submodule "harmless"]
 	path = harmless
 	url = https://github.com/e4779/zola-harmless.git
+[submodule "avel"]
+	path = avel
+	url = https://github.com/kako-jun/avel.git
