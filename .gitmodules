@@ -415,3 +415,6 @@
 [submodule "zola-suckless-theme"]
 	path = zola-suckless-theme
 	url = https://github.com/enzv/zola-suckless-theme.git
+[submodule "devlab-theme"]
+	path = devlab-theme
+	url = https://codeberg.org/ripetitor/devlab-theme.git
