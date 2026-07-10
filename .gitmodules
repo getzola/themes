@@ -415,3 +415,6 @@
 [submodule "zola-suckless-theme"]
 	path = zola-suckless-theme
 	url = https://github.com/enzv/zola-suckless-theme.git
+[submodule "volks-typo"]
+	path = volks-typo
+	url = https://gitlab.com/tisgoud/zola-volks-typo-theme
