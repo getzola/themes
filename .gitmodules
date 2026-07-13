@@ -424,3 +424,7 @@
 [submodule "volks-typo"]
 	path = volks-typo
 	url = https://gitlab.com/tisgoud/zola-volks-typo-theme
+[submodule "zola-astroplate"]
+	path = zola-astroplate
+	url = https://github.com/worrydont/zola-astroplate.git
+	branch = main
