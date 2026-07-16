@@ -424,3 +424,6 @@
 [submodule "volks-typo"]
 	path = volks-typo
 	url = https://gitlab.com/tisgoud/zola-volks-typo-theme
+[submodule "tapestry"]
+	path = tapestry
+	url = https://github.com/anirbanbasu/tapestry.git
