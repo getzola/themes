@@ -427,3 +427,7 @@
 [submodule "tapestry"]
 	path = tapestry
 	url = https://github.com/anirbanbasu/tapestry.git
+[submodule "zola-astroplate"]
+	path = zola-astroplate
+	url = https://github.com/worrydont/zola-astroplate.git
+	branch = main
