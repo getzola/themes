@@ -15,10 +15,16 @@ jobs:
         with:
           submodules: "recursive"
       - name: Setup Python 3
-        uses: actions/setup-python@v2
+        uses: actions/setup-python@v6
         with:
-          python-version: '3.10'
+          python-version: '3.14'
       - name: Install Python requirements
         run: pip install -r requirements.txt
+      - name: Install latest Zola
+        uses: taiki-e/install-action@v2
+        with:
+          tool: zola
+      - name: Print Zola version
+        run: zola --version
       - name: Run the generator script
         run: python generate_docs.py site
