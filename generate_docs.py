@@ -3,6 +3,7 @@ import re
 import shutil
 import subprocess
 import sys
+import tempfile
 
 import toml
 
@@ -16,6 +17,22 @@ def find_file(directory, filename):
         if file.lower() == lower_filename:
             return file  # Return the correctly-cased filename
     return None  # File not found
+
+def find_config(directory):
+    return find_file(directory, "config.toml") or find_file(directory, "zola.toml")
+
+def build_with_latest_zola(path):
+    """
+    Returns (success, stderr/out)
+    """
+    with tempfile.TemporaryDirectory() as out_dir:
+        result = subprocess.run(
+            ["zola", "build", "-o", out_dir, "--force"],
+            cwd=path,
+            capture_output=True,
+            text=True,
+        )
+    return result.returncode == 0, (result.stderr or result.stdout).strip()
 
 def slugify(s):
     """
@@ -36,6 +53,9 @@ def slugify(s):
 
 # Store errors to print them at the end.
 errors = []
+
+# Themes missing a default {zola, config}.toml
+unbuildable = []
 
 class Theme(object):
     def __init__(self, name, path):
@@ -179,6 +199,17 @@ def read_themes():
             errors.append(error_message)
             continue
 
+        if find_config(full_path) is None:
+            print(f"Skipping {theme.name}: no config.toml/zola.toml found")
+            unbuildable.append(theme)
+            continue
+
+        ok, output = build_with_latest_zola(full_path)
+        if not ok:
+            error_message = f"Theme '{theme.name}' failed to build with the latest Zola version:\n{output}"
+            errors.append(error_message)
+            continue
+
         themes.append(theme)
 
     return themes
@@ -219,4 +250,5 @@ sort_by = "date"
 
     # Print summary of themes processed.
     print(f"\nThemes successfully processed: {len(all_themes)}")
-    print(f"Themes with errors: {len(errors)}")
+    print(f"\nThemes with errors: {len(errors)}")
+    print(f"\nThemes excluded: {len(unbuildable)}")
