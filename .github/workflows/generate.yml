@@ -61,6 +61,7 @@ jobs:
       - name: Copy updated themes site
         if: steps.themes.outputs.has_changes == 'true'
         run: |
+          rm -rf zola/docs/content/themes/*
           cp -r site/* zola/docs/content/themes/
       - name: Create pull request
         if: steps.themes.outputs.has_changes == 'true'
