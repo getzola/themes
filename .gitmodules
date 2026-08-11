@@ -431,3 +431,6 @@
 	path = zola-astroplate
 	url = https://github.com/worrydont/zola-astroplate.git
 	branch = main
+[submodule "simplepod"]
+	path = simplepod
+	url = https://github.com/cbrake/simplepod
