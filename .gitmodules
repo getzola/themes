@@ -271,8 +271,8 @@
 	url = https://github.com/harrymkt/zluinav
 [submodule "linkita"]
 	path = linkita
-	url = https://codeberg.org/salif/linkita.git
-	branch = linkita
+	url = https://github.com/salif/linkita.git
+	branch = main
 [submodule "re137"]
 	path = re137
 	url = git@github.com:tinikov/re137.git
