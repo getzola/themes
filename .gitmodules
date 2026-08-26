@@ -434,3 +434,6 @@
 [submodule "simplepod"]
 	path = simplepod
 	url = https://github.com/cbrake/simplepod
+[submodule "zulqer"]
+	path = zulqer
+	url = https://github.com/menzil/zulqer.git
