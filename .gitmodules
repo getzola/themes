@@ -434,3 +434,21 @@
 [submodule "zulqer"]
 	path = zulqer
 	url = https://github.com/menzil/zulqer.git
+[submodule "audrey"]
+	path = audrey
+	url = https://git.colorized.life/demo.audreyrue.net.git
+[submodule "blythe"]
+	path = blythe
+	url = https://git.colorized.life/demo.blythebluebell.net.git
+[submodule "catcrew"]
+	path = catcrew
+	url = https://git.colorized.life/demo.catcrew.studio.git
+[submodule "hela"]
+	path = hela
+	url = https://git.colorized.life/demo.helaardstrom.net.git
+[submodule "kaito"]
+	path = kaito
+	url = https://git.colorized.life/demo.kaitokawasaka.net.git
+[submodule "kawasaka"]
+	path = kawasaka
+	url = https://git.colorized.life/demo.kawasaka.net.git
