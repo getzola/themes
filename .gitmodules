@@ -452,3 +452,6 @@
 [submodule "kawasaka"]
 	path = kawasaka
 	url = https://git.colorized.life/demo.kawasaka.net.git
+[submodule "zola-kronos"]
+	path = zola-kronos
+	url = https://github.com/vermaneerajin/zola-kronos.git
