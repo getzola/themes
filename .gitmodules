@@ -452,3 +452,6 @@
 [submodule "kawasaka"]
 	path = kawasaka
 	url = https://git.colorized.life/demo.kawasaka.net.git
+[submodule "readable-resume"]
+	path = readable-resume
+	url = https://github.com/supertj/zola-readable-resume.git
