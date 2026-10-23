@@ -452,3 +452,6 @@
 [submodule "kawasaka"]
 	path = kawasaka
 	url = https://git.colorized.life/demo.kawasaka.net.git
+[submodule "brtl"]
+	path = brtl
+	url = https://gitlab.com/dmausyVMBCAD/brtl
