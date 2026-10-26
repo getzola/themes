@@ -455,3 +455,6 @@
 [submodule "brtl"]
 	path = brtl
 	url = https://gitlab.com/dmausyVMBCAD/brtl
+[submodule "readable-resume"]
+	path = readable-resume
+	url = https://github.com/supertj/zola-readable-resume.git
