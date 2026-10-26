@@ -452,3 +452,6 @@
 [submodule "kawasaka"]
 	path = kawasaka
 	url = https://git.colorized.life/demo.kawasaka.net.git
+[submodule "arabesque"]
+	path = arabesque
+	url = https://github.com/ArabesqueLabs/zola-theme-arabesque.git
