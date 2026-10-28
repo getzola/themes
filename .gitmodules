@@ -455,6 +455,9 @@
 [submodule "brtl"]
 	path = brtl
 	url = https://gitlab.com/dmausyVMBCAD/brtl
+[submodule "arabesque"]
+	path = arabesque
+	url = https://github.com/ArabesqueLabs/zola-theme-arabesque.git
 [submodule "readable-resume"]
 	path = readable-resume
 	url = https://github.com/supertj/zola-readable-resume.git
