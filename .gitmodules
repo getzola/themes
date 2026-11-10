@@ -461,3 +461,6 @@
 [submodule "helloblog"]
 	path = helloblog
 	url = https://github.com/Cnkrru/zola-theme-helloblog.git
+[submodule "steadfast"]
+	path = steadfast
+	url = https://github.com/ello-lithuania/steadfast-zola.git
