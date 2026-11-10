@@ -458,3 +458,6 @@
 [submodule "readable-resume"]
 	path = readable-resume
 	url = https://github.com/supertj/zola-readable-resume.git
+[submodule "steadfast"]
+	path = steadfast
+	url = https://github.com/ello-lithuania/steadfast-zola.git
