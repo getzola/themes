@@ -458,3 +458,6 @@
 [submodule "readable-resume"]
 	path = readable-resume
 	url = https://github.com/supertj/zola-readable-resume.git
+[submodule "helloblog"]
+	path = helloblog
+	url = https://github.com/Cnkrru/zola-theme-helloblog.git
